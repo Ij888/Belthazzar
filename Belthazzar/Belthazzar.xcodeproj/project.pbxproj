@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8755B81C1C39E79300D94117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8755B81B1C39E79300D94117 /* AppDelegate.swift */; };
+		8755B81E1C39E79300D94117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8755B81D1C39E79300D94117 /* ViewController.swift */; };
+		8755B8211C39E79300D94117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8755B81F1C39E79300D94117 /* Main.storyboard */; };
+		8755B8231C39E79300D94117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8755B8221C39E79300D94117 /* Assets.xcassets */; };
+		8755B8261C39E79300D94117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8755B8241C39E79300D94117 /* LaunchScreen.storyboard */; };
+		8755B8311C39E79300D94117 /* BelthazzarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8755B8301C39E79300D94117 /* BelthazzarTests.swift */; };
+		8755B83C1C39E79300D94117 /* BelthazzarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8755B83B1C39E79300D94117 /* BelthazzarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8755B82D1C39E79300D94117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8755B8101C39E79300D94117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8755B8171C39E79300D94117;
+			remoteInfo = Belthazzar;
+		};
+		8755B8381C39E79300D94117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8755B8101C39E79300D94117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8755B8171C39E79300D94117;
+			remoteInfo = Belthazzar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8755B8181C39E79300D94117 /* Belthazzar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Belthazzar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8755B81B1C39E79300D94117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8755B81D1C39E79300D94117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8755B8201C39E79300D94117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8755B8221C39E79300D94117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8755B8251C39E79300D94117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8755B8271C39E79300D94117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8755B82C1C39E79300D94117 /* BelthazzarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BelthazzarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8755B8301C39E79300D94117 /* BelthazzarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelthazzarTests.swift; sourceTree = "<group>"; };
+		8755B8321C39E79300D94117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8755B8371C39E79300D94117 /* BelthazzarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BelthazzarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8755B83B1C39E79300D94117 /* BelthazzarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelthazzarUITests.swift; sourceTree = "<group>"; };
+		8755B83D1C39E79300D94117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8755B8151C39E79300D94117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8755B8291C39E79300D94117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8755B8341C39E79300D94117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8755B80F1C39E79300D94117 = {
+			isa = PBXGroup;
+			children = (
+				8755B81A1C39E79300D94117 /* Belthazzar */,
+				8755B82F1C39E79300D94117 /* BelthazzarTests */,
+				8755B83A1C39E79300D94117 /* BelthazzarUITests */,
+				8755B8191C39E79300D94117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8755B8191C39E79300D94117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8755B8181C39E79300D94117 /* Belthazzar.app */,
+				8755B82C1C39E79300D94117 /* BelthazzarTests.xctest */,
+				8755B8371C39E79300D94117 /* BelthazzarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8755B81A1C39E79300D94117 /* Belthazzar */ = {
+			isa = PBXGroup;
+			children = (
+				8755B81B1C39E79300D94117 /* AppDelegate.swift */,
+				8755B81D1C39E79300D94117 /* ViewController.swift */,
+				8755B81F1C39E79300D94117 /* Main.storyboard */,
+				8755B8221C39E79300D94117 /* Assets.xcassets */,
+				8755B8241C39E79300D94117 /* LaunchScreen.storyboard */,
+				8755B8271C39E79300D94117 /* Info.plist */,
+			);
+			path = Belthazzar;
+			sourceTree = "<group>";
+		};
+		8755B82F1C39E79300D94117 /* BelthazzarTests */ = {
+			isa = PBXGroup;
+			children = (
+				8755B8301C39E79300D94117 /* BelthazzarTests.swift */,
+				8755B8321C39E79300D94117 /* Info.plist */,
+			);
+			path = BelthazzarTests;
+			sourceTree = "<group>";
+		};
+		8755B83A1C39E79300D94117 /* BelthazzarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8755B83B1C39E79300D94117 /* BelthazzarUITests.swift */,
+				8755B83D1C39E79300D94117 /* Info.plist */,
+			);
+			path = BelthazzarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8755B8171C39E79300D94117 /* Belthazzar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8755B8401C39E79300D94117 /* Build configuration list for PBXNativeTarget "Belthazzar" */;
+			buildPhases = (
+				8755B8141C39E79300D94117 /* Sources */,
+				8755B8151C39E79300D94117 /* Frameworks */,
+				8755B8161C39E79300D94117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Belthazzar;
+			productName = Belthazzar;
+			productReference = 8755B8181C39E79300D94117 /* Belthazzar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8755B82B1C39E79300D94117 /* BelthazzarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8755B8431C39E79300D94117 /* Build configuration list for PBXNativeTarget "BelthazzarTests" */;
+			buildPhases = (
+				8755B8281C39E79300D94117 /* Sources */,
+				8755B8291C39E79300D94117 /* Frameworks */,
+				8755B82A1C39E79300D94117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8755B82E1C39E79300D94117 /* PBXTargetDependency */,
+			);
+			name = BelthazzarTests;
+			productName = BelthazzarTests;
+			productReference = 8755B82C1C39E79300D94117 /* BelthazzarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8755B8361C39E79300D94117 /* BelthazzarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8755B8461C39E79300D94117 /* Build configuration list for PBXNativeTarget "BelthazzarUITests" */;
+			buildPhases = (
+				8755B8331C39E79300D94117 /* Sources */,
+				8755B8341C39E79300D94117 /* Frameworks */,
+				8755B8351C39E79300D94117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8755B8391C39E79300D94117 /* PBXTargetDependency */,
+			);
+			name = BelthazzarUITests;
+			productName = BelthazzarUITests;
+			productReference = 8755B8371C39E79300D94117 /* BelthazzarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8755B8101C39E79300D94117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = i0_Industries;
+				TargetAttributes = {
+					8755B8171C39E79300D94117 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8755B82B1C39E79300D94117 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8755B8171C39E79300D94117;
+					};
+					8755B8361C39E79300D94117 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8755B8171C39E79300D94117;
+					};
+				};
+			};
+			buildConfigurationList = 8755B8131C39E79300D94117 /* Build configuration list for PBXProject "Belthazzar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8755B80F1C39E79300D94117;
+			productRefGroup = 8755B8191C39E79300D94117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8755B8171C39E79300D94117 /* Belthazzar */,
+				8755B82B1C39E79300D94117 /* BelthazzarTests */,
+				8755B8361C39E79300D94117 /* BelthazzarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8755B8161C39E79300D94117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8755B8261C39E79300D94117 /* LaunchScreen.storyboard in Resources */,
+				8755B8231C39E79300D94117 /* Assets.xcassets in Resources */,
+				8755B8211C39E79300D94117 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8755B82A1C39E79300D94117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8755B8351C39E79300D94117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8755B8141C39E79300D94117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8755B81E1C39E79300D94117 /* ViewController.swift in Sources */,
+				8755B81C1C39E79300D94117 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8755B8281C39E79300D94117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8755B8311C39E79300D94117 /* BelthazzarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8755B8331C39E79300D94117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8755B83C1C39E79300D94117 /* BelthazzarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8755B82E1C39E79300D94117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8755B8171C39E79300D94117 /* Belthazzar */;
+			targetProxy = 8755B82D1C39E79300D94117 /* PBXContainerItemProxy */;
+		};
+		8755B8391C39E79300D94117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8755B8171C39E79300D94117 /* Belthazzar */;
+			targetProxy = 8755B8381C39E79300D94117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8755B81F1C39E79300D94117 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8755B8201C39E79300D94117 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8755B8241C39E79300D94117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8755B8251C39E79300D94117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8755B83E1C39E79300D94117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8755B83F1C39E79300D94117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8755B8411C39E79300D94117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Belthazzar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ijem.io.Belthazzar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8755B8421C39E79300D94117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Belthazzar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ijem.io.Belthazzar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8755B8441C39E79300D94117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BelthazzarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ijem.io.BelthazzarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Belthazzar.app/Belthazzar";
+			};
+			name = Debug;
+		};
+		8755B8451C39E79300D94117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BelthazzarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ijem.io.BelthazzarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Belthazzar.app/Belthazzar";
+			};
+			name = Release;
+		};
+		8755B8471C39E79300D94117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BelthazzarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ijem.io.BelthazzarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Belthazzar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8755B8481C39E79300D94117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BelthazzarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ijem.io.BelthazzarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Belthazzar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8755B8131C39E79300D94117 /* Build configuration list for PBXProject "Belthazzar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8755B83E1C39E79300D94117 /* Debug */,
+				8755B83F1C39E79300D94117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8755B8401C39E79300D94117 /* Build configuration list for PBXNativeTarget "Belthazzar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8755B8411C39E79300D94117 /* Debug */,
+				8755B8421C39E79300D94117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8755B8431C39E79300D94117 /* Build configuration list for PBXNativeTarget "BelthazzarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8755B8441C39E79300D94117 /* Debug */,
+				8755B8451C39E79300D94117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8755B8461C39E79300D94117 /* Build configuration list for PBXNativeTarget "BelthazzarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8755B8471C39E79300D94117 /* Debug */,
+				8755B8481C39E79300D94117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8755B8101C39E79300D94117 /* Project object */;
+}
