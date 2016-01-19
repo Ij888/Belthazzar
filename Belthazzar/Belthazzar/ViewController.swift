@@ -23,8 +23,9 @@ class ViewController: UIViewController {
 
     @IBAction func recordAudio(sender: UIButton) {
         //add code here
-        //show text recording on progress
+        //show text "recording on progress"
         //record users voice
+        print("in recordAudio")
     }
 }
 
